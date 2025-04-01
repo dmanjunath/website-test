@@ -13,7 +13,7 @@ setTimeout(() => {
 }, 1000)
 
 setInterval(() => {
-  fetch('https://run.mocky.io/v3/134dcef7-83ba-4479-b405-c6de417fe4e9')
+  fetch('https://run.mocky.io/v3/02eaa89b-4d55-42b5-8540-c29d499dae48')
     .then(res => res.json())
     .then(data => {
       console.log('health', data);
